@@ -101,6 +101,14 @@ export default function HomePage() {
                     </div>
                     <div className="text-sm text-gray-500">Confidence: {(s.confidence * 100).toFixed(0)}%</div>
                   </div>
+
+                  {s.pricing?.length ? (
+                    <div className="mt-3 text-sm text-gray-700">
+                      Best price: {s.pricing[0].currency} {s.pricing[0].price.toFixed(2)} at {s.pricing[0].registrar}
+                    </div>
+                  ) : (
+                    <div className="mt-3 text-sm text-gray-400">No pricing yet</div>
+                  )}
                 </li>
               ))}
             </ul>
