@@ -1,0 +1,59 @@
+{
+  "name": "domain-intelligence-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rusiqe/domain-intelligence-hub.git"
+  },
+  "keywords": [
+    "ai",
+    "domain",
+    "search",
+    "langchain",
+    "bitcoin",
+    "nextjs",
+    "vercel"
+  ],
+  "author": "tau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rusiqe/domain-intelligence-hub/issues"
+  },
+  "homepage": "https://github.com/rusiqe/domain-intelligence-hub#readme",
+  "description": "AI-powered domain search, analysis, and acquisition platform with Bitcoin payments",
+  "dependencies": {
+    "@langchain/core": "^0.3.67",
+    "@langchain/openai": "^0.6.4",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^24.2.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.11.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.6",
+    "langchain": "^0.3.30",
+    "lucide-react": "^0.536.0",
+    "next": "^15.4.6",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2",
+    "whois-json": "^2.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11"
+  }
+}
