@@ -35,7 +35,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <div className="min-h-screen bg-background font-sans antialiased">
-          <main>{children}</main>
+          <main>
+            <div className="container mx-auto px-4 py-4">
+              <nav className="mb-6 flex gap-4 text-sm text-gray-600">
+                <a className="hover:text-blue-600" href="/">Home</a>
+                <a className="hover:text-blue-600" href="/bulk">Bulk Search</a>
+              </nav>
+              {children}
+            </div>
+          </main>
         </div>
       </body>
     </html>
